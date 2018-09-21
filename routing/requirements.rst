@@ -187,12 +187,14 @@ accomplished with the following route configuration:
         // src/AppBundle/Controller/BlogApiController.php
         namespace AppBundle\Controller;
 
+        use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
         // ...
 
         class BlogApiController extends Controller
         {
             /**
-             * @Route("/api/posts/{id}", methods={"GET","HEAD"})
+             * @Route("/api/posts/{id}")
+             * @Method({"GET","HEAD"})
              */
             public function showAction($id)
             {
@@ -200,7 +202,8 @@ accomplished with the following route configuration:
             }
 
             /**
-             * @Route("/api/posts/{id}", methods={"PUT"})
+             * @Route("/api/posts/{id}")
+             * @Method("PUT")
              */
             public function editAction($id)
             {
