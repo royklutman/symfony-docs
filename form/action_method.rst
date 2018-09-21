@@ -27,8 +27,6 @@ form, you can use ``setAction()`` and ``setMethod()``:
         {
             public function newAction()
             {
-                // ...
-                
                 $form = $this->createFormBuilder($task)
                     ->setAction($this->generateUrl('target_route'))
                     ->setMethod('GET')
