@@ -22,6 +22,11 @@ String Constraints
 * :doc:`Ip </reference/constraints/Ip>`
 * :doc:`Uuid</reference/constraints/Uuid>`
 
+Number Constraints
+~~~~~~~~~~~~~~~~~~
+
+* :doc:`Range </reference/constraints/Range>`
+
 Comparison Constraints
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -33,7 +38,6 @@ Comparison Constraints
 * :doc:`LessThanOrEqual </reference/constraints/LessThanOrEqual>`
 * :doc:`GreaterThan </reference/constraints/GreaterThan>`
 * :doc:`GreaterThanOrEqual </reference/constraints/GreaterThanOrEqual>`
-* :doc:`Range </reference/constraints/Range>`
 
 Date Constraints
 ~~~~~~~~~~~~~~~~
