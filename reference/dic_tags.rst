@@ -950,7 +950,7 @@ If your custom authentication factory extends
 :class:`Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\AbstractFactory`
 and your custom authentication listener extends
 :class:`Symfony\\Component\\Security\\Http\\Firewall\\AbstractAuthenticationListener`,
-then your custom authentication listener will automatically have this tag
+then your custom authentication listener will automatically have this tagged
 applied and it will function automatically.
 
 security.voter
