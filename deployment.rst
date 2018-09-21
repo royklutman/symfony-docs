@@ -157,7 +157,7 @@ as you normally do:
 .. caution::
 
     If you get a "class not found" error during this step, you may need to
-    run ``export SYMFONY_ENV=prod`` (or ``export APP_ENV=prod`` if you're
+    run ``export APP_ENV=prod`` (or ``export SYMFONY_ENV=prod`` if you're not
     using :doc:`Symfony Flex </setup/flex>`) before running this command so
     that the ``post-install-cmd`` scripts run in the ``prod`` environment.
 
@@ -170,16 +170,7 @@ Make sure you clear and warm-up your Symfony cache:
 
     $ php bin/console cache:clear --env=prod --no-debug
 
-E) Dump your Assetic Assets
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you're using Assetic, you'll also want to dump your assets:
-
-.. code-block:: terminal
-
-    $ php bin/console assetic:dump --env=prod --no-debug
-
-F) Other Things!
+E) Other Things!
 ~~~~~~~~~~~~~~~~
 
 There may be lots of other things that you need to do, depending on your
@@ -187,8 +178,8 @@ setup:
 
 * Running any database migrations
 * Clearing your APC cache
-* Running ``assets:install`` (already taken care of in ``composer install``)
 * Add/edit CRON jobs
+* :ref:`Building and minifying your assets <how-do-i-deploy-my-encore-assets>` with Webpack Encore
 * Pushing assets to a CDN
 * ...
 

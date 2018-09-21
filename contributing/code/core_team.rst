@@ -63,9 +63,6 @@ Active Core Members
   * **Tobias Schultze** (`Tobion`_) can merge into the Routing_,
     OptionsResolver_ and PropertyAccess_ components;
 
-  * **Romain Neutron** (`romainneutron`_) can merge into the
-    Process_ component;
-
   * **Nicolas Grekas** (`nicolas-grekas`_) can merge into the Cache_, Debug_,
     Process_, PropertyAccess_, VarDumper_ components, PhpUnitBridge_ and
     the DebugBundle_;
@@ -73,8 +70,8 @@ Active Core Members
   * **Christophe Coevoet** (`stof`_) can merge into all components, bridges and
     bundles;
 
-  * **Kévin Dunglas** (`dunglas`_) can merge into the PropertyInfo_ and the Serializer_
-    component;
+  * **Kévin Dunglas** (`dunglas`_) can merge into the PropertyInfo_, the Serializer_
+    and the WebLink_ components;
 
   * **Jakub Zalas** (`jakzal`_) can merge into the DomCrawler_ and Intl_
     components;
@@ -125,7 +122,8 @@ They are no longer part of the core team, but we are very grateful for all their
 Symfony contributions:
 
 * **Bernhard Schussek** (`webmozart`_);
-* **Abdellatif AitBoudad** (`aitboudad`_).
+* **Abdellatif AitBoudad** (`aitboudad`_);
+* **Romain Neutron**.
 
 Core Membership Application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -237,6 +235,7 @@ discretion of the **Project Leader**.
 .. _Workflow: https://github.com/symfony/workflow
 .. _Yaml: https://github.com/symfony/yaml
 .. _WebProfilerBundle: https://github.com/symfony/web-profiler-bundle
+.. _WebLink: https://github.com/symfony/weblink
 .. _`symfony-docs repository`: https://github.com/symfony/symfony-docs
 .. _`fabpot`: https://github.com/fabpot/
 .. _`webmozart`: https://github.com/webmozart/

@@ -772,7 +772,7 @@ But, with ``autoconfigure: true``, you don't need the tag. In fact, if you're us
 the :ref:`default services.yaml config <service-container-services-load-example>`,
 you don't need to do *anything*: the service will be automatically loaded. Then,
 ``autoconfigure`` will add the ``twig.extension`` tag *for* you, because your class
-implements ``Twig\\Extension\\ExtensionInterface``. And thanks to ``autowire``, you can even add
+implements ``Twig\Extension\ExtensionInterface``. And thanks to ``autowire``, you can even add
 constructor arguments without any configuration.
 
 .. _container-public:
@@ -1069,4 +1069,4 @@ Learn more
 .. _`service-oriented architecture`: https://en.wikipedia.org/wiki/Service-oriented_architecture
 .. _`Symfony Standard Edition (version 3.3) services.yaml`: https://github.com/symfony/symfony-standard/blob/3.3/app/config/services.yml
 .. _`glob pattern`: https://en.wikipedia.org/wiki/Glob_(programming)
-.. _`Symfony Fundamentals screencast series`: https://knpuniversity.com/screencast/symfony-fundamentals
+.. _`Symfony Fundamentals screencast series`: https://symfonycasts.com/screencast/symfony-fundamentals
