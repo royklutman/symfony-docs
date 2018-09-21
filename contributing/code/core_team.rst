@@ -63,6 +63,9 @@ Active Core Members
   * **Tobias Schultze** (`Tobion`_) can merge into the Routing_,
     OptionsResolver_ and PropertyAccess_ components;
 
+  * **Romain Neutron** (`romainneutron`_) can merge into the
+    Process_ component;
+
   * **Nicolas Grekas** (`nicolas-grekas`_) can merge into the Cache_, Debug_,
     Process_, PropertyAccess_, VarDumper_ components, PhpUnitBridge_ and
     the DebugBundle_;
@@ -122,8 +125,7 @@ They are no longer part of the core team, but we are very grateful for all their
 Symfony contributions:
 
 * **Bernhard Schussek** (`webmozart`_);
-* **Abdellatif AitBoudad** (`aitboudad`_);
-* **Romain Neutron**.
+* **Abdellatif AitBoudad** (`aitboudad`_).
 
 Core Membership Application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
