@@ -124,22 +124,21 @@ a ``postPersist()`` method, which will be called when the event is dispatched::
     // src/AppBundle/EventListener/SearchIndexer.php
     namespace AppBundle\EventListener;
 
-    // for Doctrine < 2.4: use Doctrine\ORM\Event\LifecycleEventArgs;
-    use Doctrine\Common\Persistence\Event\LifecycleEventArgs;
+    use Doctrine\ORM\Event\LifecycleEventArgs;
     use AppBundle\Entity\Product;
 
     class SearchIndexer
     {
         public function postPersist(LifecycleEventArgs $args)
         {
-            $entity = $args->getObject();
+            $entity = $args->getEntity();
 
             // only act on some "Product" entity
             if (!$entity instanceof Product) {
                 return;
             }
 
-            $entityManager = $args->getObjectManager();
+            $entityManager = $args->getEntityManager();
             // ... do something with the Product
         }
     }
@@ -196,11 +195,11 @@ interface and have an event method for each event it subscribes to::
 
         public function index(LifecycleEventArgs $args)
         {
-            $entity = $args->getObject();
+            $entity = $args->getEntity();
 
             // perhaps you only want to act on some "Product" entity
             if ($entity instanceof Product) {
-                $entityManager = $args->getObjectManager();
+                $entityManager = $args->getEntityManager();
                 // ... do something with the Product
             }
         }
