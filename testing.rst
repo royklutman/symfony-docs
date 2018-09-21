@@ -48,7 +48,7 @@ Unit Tests
 
 A unit test is a test against a single PHP class, also called a *unit*. If you
 want to test the overall behavior of your application, see the section about
-:ref:`Functional Tests <functional-tests>`.
+`Functional Tests`_.
 
 Writing Symfony unit tests is no different from writing standard PHPUnit
 unit tests. Suppose, for example, that you have an *incredibly* simple class
@@ -959,7 +959,7 @@ Learn more
 * :doc:`/components/css_selector`
 
 .. _`PHPUnit`: https://phpunit.de/
-.. _`documentation`: https://phpunit.readthedocs.io/
+.. _`documentation`: https://phpunit.de/manual/current/en/
 .. _`PHPUnit Bridge component`: https://symfony.com/components/PHPUnit%20Bridge
 .. _`$_SERVER`: https://php.net/manual/en/reserved.variables.server.php
 .. _`data providers`: https://phpunit.de/manual/current/en/writing-tests-for-phpunit.html#writing-tests-for-phpunit.data-providers
