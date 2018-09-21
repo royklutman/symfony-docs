@@ -3,6 +3,11 @@
 Symfony Documentation
 =====================
 
+.. toctree::
+    :hidden:
+
+    changelog
+
 Quick Tour
 ----------
 
